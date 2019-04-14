@@ -1,0 +1,29 @@
+{
+  "name": "ioc",
+  "version": "0.0.1",
+  "description": "Typescript basic ioc",
+  "author": "Luís Antunes",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luisantunesdeveloper/typescript-basic-boilerplate"
+  },
+  "bugs": "https://github.com/luisantunesdeveloper/typescript-basic-boilerplate/issues",
+  "keywords": [
+    "ioc",
+    "npm",
+    "typescript"
+  ],
+  "scripts": {
+    "build": "run-s build:*",
+    "build:tsc": "tsc",
+    "watch:tsc": "tsc -w",
+    "watch": "run-p watch:*"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.4",
+    "copyfiles": "^2.1.0",
+    "npm-run-all": "4.1.5",
+    "typescript": "^3.4.3"
+  }
+}
